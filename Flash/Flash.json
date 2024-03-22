@@ -1,0 +1,12 @@
+{
+    "Author": "0x",
+    "Name": "Flash",
+    "Punchline": "Flash to everywhere you want.",
+    "Description": "",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "Tags": [
+        "teleport"
+    ],
+    "IconUrl": "https://raw.githubusercontent.com/c98cmka/Flash/master/icon.png"
+}
