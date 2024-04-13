@@ -9,9 +9,10 @@ namespace Flash
     {
         public int Version { get; set; } = 0;
 
-        public bool SomePropertyToBeSavedAndWithADefault { get; set; } = true;
+        public float lastX = 0;
+        public float lastY = 0;
+        public float lastZ = 0;
 
-        // the below exist just to make saving less cumbersome
         [NonSerialized]
         private DalamudPluginInterface? PluginInterface;
 

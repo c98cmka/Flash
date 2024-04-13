@@ -47,6 +47,7 @@ namespace Flash
             });
 
             this.PluginInterface.UiBuilder.Draw += DrawUI;
+            this.PluginInterface.UiBuilder.OpenMainUi += DrawConfigUI;
             this.PluginInterface.UiBuilder.OpenConfigUi += DrawConfigUI;
         }
 
